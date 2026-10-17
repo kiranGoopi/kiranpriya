@@ -1020,9 +1020,9 @@ a:focus {
   color: #ffffff;
 }
 .title-section {
-  font-family: 'Lato', sans-serif;
+  font-family: algerian;
   font-weight: black;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
@@ -1213,7 +1213,7 @@ a:focus {
 #page-loader {
   width: 100%;
   height: 100%;
-  background: #bb6357;
+  background: #E5315B;
   color: #d75a4a;
   position: fixed;
   top: 0;
@@ -1339,7 +1339,7 @@ a:focus {
   width: 100%;
   padding: 15px 0;
   z-index: 10;
-  background-color: rgba(208, 88, 73, 0.83);
+  background-color:#E5315B;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -1356,27 +1356,26 @@ a:focus {
 @media (min-width:992px) {
   #masthead .header-logo {
     width: 314px;
-    margin-top: 0;
+    margin-top: 0;  
   }
 }
 #masthead .header-logo .site-title {
   margin-bottom: 0;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1;
   margin-top: 12px;
   font-weight: regular;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   word-spacing: -3px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  font-family: 'Sweet Hipster', sans-serif;
-  font-family: 'Sweet Hipster', cursive;
+
   color: #ffffff;
 }
 @media (min-width:992px) {
   #masthead .header-logo .site-title {
-    font-size: 46px;
+    font-size: 40px;
   }
 }
 #masthead .header-logo .site-title a {
@@ -1740,7 +1739,7 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #555;
+  background: #E5315B;
 }
 .footer-social-icons .social-icons-list a:hover {
   opacity: 0.8;
@@ -2067,7 +2066,7 @@ a:focus {
   margin-bottom: 30px;
   width: 141px;
   height: 129px;
-  background: url('../img/big-heart.png') no-repeat center center;
+  
 }
 .section-testimonials .testimonial-carousel {
   max-width: 850px;
@@ -2294,7 +2293,7 @@ a:focus {
   -moz-transform: translate(0, -10px);
 }
 .events-reminder-item header {
-  background-color: #d75a4a;
+  background-color: #E5315B;
   padding: 15px 25px;
 }
 .events-reminder-item header .events-item-heading {
@@ -3789,4 +3788,15 @@ body .simple-lightbox .sl-navigation {
 .ie9 #page-loader,
 .ie8 #page-loader {
   display: none;
+}
+@media screen and (max-width:700px){
+
+#img1{
+width:  80%;
+}
+#img2{
+width:  30%;
+}
+#img3{
+width:  80%;
 }
